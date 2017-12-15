@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textTeam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        		android:layout_alignParentLeft="true"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/rateTeam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        		android:layout_alignParentLeft="true"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vs" />
+
+            <TextView
+                android:id="@+id/textPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textTeam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/rateTeam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+</RelativeLayout>
